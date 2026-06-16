@@ -11,7 +11,7 @@ public class DeleteTest {
 	    Response response =RestAssured
 	               .given()
 	               .when()
-	               .delete("http://localhost:3001/trainees/n5Idk0B");
+	               .delete("http://localhost:3001/trainees/JcT-mR3");
 	    Assert.assertEquals(response.getStatusCode(),200);
 	}
 }
