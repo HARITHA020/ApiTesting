@@ -1,17 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-15T15:45:06 IST" name="Default suite" finished-at="2026-06-15T15:45:10 IST" duration-ms="3972">
+  <suite started-at="2026-06-16T16:44:16 IST" name="Suite" finished-at="2026-06-16T16:44:24 IST" duration-ms="8598">
     <groups>
     </groups>
-    <test started-at="2026-06-15T15:45:06 IST" name="Default test" finished-at="2026-06-15T15:45:10 IST" duration-ms="3972">
-      <class name="com.test.ApiValidatorTest">
-        <test-method signature="validator()[pri:0, instance:com.test.ApiValidatorTest@73a1e9a9]" started-at="2026-06-15T15:45:06 IST" name="validator" finished-at="2026-06-15T15:45:10 IST" duration-ms="3891" status="PASS">
+    <test started-at="2026-06-16T16:44:16 IST" name="Test" finished-at="2026-06-16T16:44:24 IST" duration-ms="8598">
+      <class name="com.isomniaTest.ValidLogin">
+        <test-method signature="loginTest()[pri:0, instance:com.isomniaTest.ValidLogin@3754a4bf]" started-at="2026-06-16T16:44:24 IST" name="loginTest" finished-at="2026-06-16T16:44:24 IST" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validator -->
-      </class> <!-- com.test.ApiValidatorTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.isomniaTest.ValidLogin -->
+      <class name="com.isomniaTest.DeleteTest">
+        <test-method signature="deleteTrainee()[pri:0, instance:com.isomniaTest.DeleteTest@4afcd809]" started-at="2026-06-16T16:44:24 IST" name="deleteTrainee" finished-at="2026-06-16T16:44:24 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTrainee -->
+      </class> <!-- com.isomniaTest.DeleteTest -->
+      <class name="com.isomniaTest.Put_Test">
+        <test-method signature="put()[pri:0, instance:com.isomniaTest.Put_Test@411f53a0]" started-at="2026-06-16T16:44:23 IST" name="put" finished-at="2026-06-16T16:44:24 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put -->
+      </class> <!-- com.isomniaTest.Put_Test -->
+      <class name="com.isomniaTest.Get_ValidTest">
+        <test-method signature="getTrainee()[pri:0, instance:com.isomniaTest.Get_ValidTest@6b2ea799]" started-at="2026-06-16T16:44:23 IST" name="getTrainee" finished-at="2026-06-16T16:44:23 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTrainee -->
+      </class> <!-- com.isomniaTest.Get_ValidTest -->
+      <class name="com.isomniaTest.HeadTest">
+        <test-method signature="headTest()[pri:0, instance:com.isomniaTest.HeadTest@28701274]" started-at="2026-06-16T16:44:24 IST" name="headTest" finished-at="2026-06-16T16:44:24 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headTest -->
+      </class> <!-- com.isomniaTest.HeadTest -->
+      <class name="com.isomniaTest.Get_invalidTest">
+        <test-method signature="invalidTest()[pri:0, instance:com.isomniaTest.Get_invalidTest@36fc695d]" started-at="2026-06-16T16:44:24 IST" name="invalidTest" finished-at="2026-06-16T16:44:24 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidTest -->
+      </class> <!-- com.isomniaTest.Get_invalidTest -->
+      <class name="com.isomniaTest.InvalidLogin">
+        <test-method signature="invalidLogin()[pri:0, instance:com.isomniaTest.InvalidLogin@2b71e916]" started-at="2026-06-16T16:44:24 IST" name="invalidLogin" finished-at="2026-06-16T16:44:24 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+      </class> <!-- com.isomniaTest.InvalidLogin -->
+      <class name="com.isomniaTest.OptionTest">
+        <test-method signature="optionsTest()[pri:0, instance:com.isomniaTest.OptionTest@62379589]" started-at="2026-06-16T16:44:24 IST" name="optionsTest" finished-at="2026-06-16T16:44:24 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- optionsTest -->
+      </class> <!-- com.isomniaTest.OptionTest -->
+      <class name="com.isomniaTest.Post_newTrainee">
+        <test-method signature="createTrainee()[pri:0, instance:com.isomniaTest.Post_newTrainee@13c9d689]" started-at="2026-06-16T16:44:24 IST" name="createTrainee" finished-at="2026-06-16T16:44:24 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTrainee -->
+      </class> <!-- com.isomniaTest.Post_newTrainee -->
+      <class name="com.isomniaTest.PatchTest">
+        <test-method signature="patchTrainee()[pri:0, instance:com.isomniaTest.PatchTest@765d7657]" started-at="2026-06-16T16:44:16 IST" name="patchTrainee" finished-at="2026-06-16T16:44:23 IST" duration-ms="7325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchTrainee -->
+      </class> <!-- com.isomniaTest.PatchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

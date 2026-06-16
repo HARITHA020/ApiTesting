@@ -3,8 +3,16 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.test.SeleniumTest"/>
-      <class name="com.test.GetUserTest"/>
+      <class name="com.isomniaTest.PatchTest"/>
+      <class name="com.isomniaTest.Get_ValidTest"/>
+      <class name="com.isomniaTest.Put_Test"/>
+      <class name="com.isomniaTest.InvalidLogin"/>
+      <class name="com.isomniaTest.Get_invalidTest"/>
+      <class name="com.isomniaTest.HeadTest"/>
+      <class name="com.isomniaTest.Post_newTrainee"/>
+      <class name="com.isomniaTest.ValidLogin"/>
+      <class name="com.isomniaTest.OptionTest"/>
+      <class name="com.isomniaTest.DeleteTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

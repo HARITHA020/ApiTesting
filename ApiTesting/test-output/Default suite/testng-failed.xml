@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.ApiValidatorTest">
+      <class name="com.isomniaTest.HeadTest">
         <methods>
-          <include name="validator"/>
+          <include name="headTest"/>
         </methods>
-      </class> <!-- com.test.ApiValidatorTest -->
+      </class> <!-- com.isomniaTest.HeadTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

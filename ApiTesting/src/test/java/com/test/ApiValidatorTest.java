@@ -10,7 +10,7 @@ public class ApiValidatorTest {
 				.given()
 				.when()
 				.get("https://jsonplaceholder.typicode.com/users/1")
-				.jsonPath()
+				.jsonPath()  // accesing the json respose and get the inside detail 
 				.getString("email");
 		System.out.println("Email:"+email);
 		Assert.assertEquals(email,"Sincere@april.biz");
