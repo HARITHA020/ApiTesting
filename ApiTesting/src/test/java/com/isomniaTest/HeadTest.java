@@ -11,7 +11,7 @@ public class HeadTest {
 	    Response response =RestAssured
 	             .given()
 	             .when()
-	             .head("http://localhost:3001/trainees/4");
+	             .head("http://localhost:3001/");
 	    Assert.assertEquals(response.getStatusCode(),200);
 	}
 }
