@@ -7,7 +7,7 @@
     </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="con.test.BaseTest"></class>
+      <class name="com.test.BaseTest"></class>
       <class name="com.test.CheckApi"/>
       <class name="com.test.LoginApi"/>
       <class name="com.test.GetInstitute"/>
