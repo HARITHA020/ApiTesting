@@ -1,0 +1,1 @@
+{"uuid":"7a280b5b-df04-406d-8d48-38a27ee6ce85","name":"com.test.GetInstitute","children":["e49ccddb-9c84-4b45-8f2b-b1df3226d5cf"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1781746674751,"stop":1781746678246}],"afters":[],"start":1781746659894,"stop":1781746724903}

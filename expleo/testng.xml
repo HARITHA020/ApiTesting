@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+
+<suite name="LMS API Automation Suite">
+
+    <!-- Listeners -->
     <listeners>
         <listener class-name="com.report.ExtentListener"/>
         <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
     </listeners>
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="com.test.BaseTest"></class>
-      <class name="com.test.CheckApi"/>
-      <class name="com.test.LoginApi"/>
-      <class name="com.test.GetInstitute"/>
-      <class name="com.test.GetRole"/>
-      <class name="com.test.GetCourse"/>
-      <class name="com.test.CreateNote"/>
-      <class name="com.test.GetAllNotes"/>
-      <class name="com.test.GetNoteById"/>
-      <class name="com.test.UpdateNote"/>
-      <class name="com.test.TogglePin"/>
-      <class name="com.test.DeleteNote"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+
+    <!-- Test Group -->
+    <test name="LMS API Tests" thread-count="5">
+
+        <classes>
+            <class name="com.test.CheckApi"/>
+            <class name="com.test.LoginApi"/>
+            <class name="com.test.GetInstitute"/>
+            <class name="com.test.GetRole"/>
+            <class name="com.test.GetCourse"/>
+
+            <class name="com.test.CreateNote"/>
+            <class name="com.test.GetAllNotes"/>
+            <class name="com.test.GetNoteById"/>
+            <class name="com.test.UpdateNote"/>
+            <class name="com.test.TogglePin"/>
+            <class name="com.test.DeleteNote"/>
+
+        </classes>
+
+    </test>
+
+</suite>

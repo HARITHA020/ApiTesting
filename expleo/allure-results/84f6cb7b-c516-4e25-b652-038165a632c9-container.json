@@ -1,0 +1,1 @@
+{"uuid":"84f6cb7b-c516-4e25-b652-038165a632c9","name":"com.test.CreateNote","children":["d44c614b-930f-418f-afe3-afaf50d1c752"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1781746688771,"stop":1781746692154}],"afters":[],"start":1781746659892,"stop":1781746724894}

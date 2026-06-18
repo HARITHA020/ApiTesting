@@ -1,0 +1,1 @@
+{"uuid":"d4f7f6a4-ceb6-40bc-a105-6615695b3ce2","name":"com.test.GetRole","children":["5a878e05-fabb-4f29-80f0-d649b54bfd3a"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1781746678982,"stop":1781746682432}],"afters":[],"start":1781746659894,"stop":1781746724904}
