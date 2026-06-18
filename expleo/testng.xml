@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
     <listeners>
-        <listener class-name="com.listener.ExtentListener"/>
+        <listener class-name="com.report.ExtentListener"/>
         <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
     </listeners>
   <test thread-count="5" name="Test">
