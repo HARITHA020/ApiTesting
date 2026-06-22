@@ -1,137 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-18T07:07:39 IST" name="Suite" finished-at="2026-06-18T07:08:44 IST" duration-ms="64645">
+  <suite started-at="2026-06-22T22:31:07 IST" name="LMS API Automation Suite" finished-at="2026-06-22T22:32:39 IST" duration-ms="92045">
     <groups>
     </groups>
-    <test started-at="2026-06-18T07:07:39 IST" name="Test" finished-at="2026-06-18T07:08:44 IST" duration-ms="64645">
+    <test started-at="2026-06-22T22:31:07 IST" name="LMS API Tests" finished-at="2026-06-22T22:32:39 IST" duration-ms="92045">
       <class name="com.test.GetInstitute">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.GetInstitute@3ed242a4]" started-at="2026-06-18T07:07:54 IST" name="setup" finished-at="2026-06-18T07:07:58 IST" duration-ms="3495" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.GetInstitute@1fdf1c5]" started-at="2026-06-22T22:31:27 IST" name="setup" finished-at="2026-06-22T22:31:31 IST" duration-ms="3906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getAllInstitutions()[pri:0, instance:com.test.GetInstitute@3ed242a4]" started-at="2026-06-18T07:07:58 IST" name="getAllInstitutions" finished-at="2026-06-18T07:07:58 IST" duration-ms="731" status="PASS">
+        <test-method signature="getAllInstitutions()[pri:0, instance:com.test.GetInstitute@1fdf1c5]" started-at="2026-06-22T22:31:31 IST" name="getAllInstitutions" finished-at="2026-06-22T22:31:32 IST" duration-ms="1008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllInstitutions -->
       </class> <!-- com.test.GetInstitute -->
       <class name="com.test.CheckApi">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.CheckApi@63a270c9]" started-at="2026-06-18T07:07:39 IST" name="setup" finished-at="2026-06-18T07:07:50 IST" duration-ms="10093" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.CheckApi@614df0a4]" started-at="2026-06-22T22:31:23 IST" name="setup" finished-at="2026-06-22T22:31:27 IST" duration-ms="3784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="healthCheck()[pri:0, instance:com.test.CheckApi@63a270c9]" started-at="2026-06-18T07:07:50 IST" name="healthCheck" finished-at="2026-06-18T07:07:51 IST" duration-ms="1021" status="PASS">
+        <test-method signature="healthCheck()[pri:0, instance:com.test.CheckApi@614df0a4]" started-at="2026-06-22T22:31:27 IST" name="healthCheck" finished-at="2026-06-22T22:31:27 IST" duration-ms="480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- healthCheck -->
       </class> <!-- com.test.CheckApi -->
       <class name="com.test.GetNoteById">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.GetNoteById@73a2e526]" started-at="2026-06-18T07:08:19 IST" name="setup" finished-at="2026-06-18T07:08:22 IST" duration-ms="3658" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.GetNoteById@cd1d761]" started-at="2026-06-22T22:32:02 IST" name="setup" finished-at="2026-06-22T22:32:06 IST" duration-ms="4208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNote()[pri:0, instance:com.test.GetNoteById@73a2e526]" started-at="2026-06-18T07:08:22 IST" name="createNote" finished-at="2026-06-18T07:08:24 IST" duration-ms="1367" status="PASS">
+        <test-method signature="createNote()[pri:0, instance:com.test.GetNoteById@cd1d761]" started-at="2026-06-22T22:32:06 IST" name="createNote" finished-at="2026-06-22T22:32:07 IST" duration-ms="1704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNote -->
-        <test-method signature="getNoteById()[pri:0, instance:com.test.GetNoteById@73a2e526]" started-at="2026-06-18T07:08:24 IST" name="getNoteById" finished-at="2026-06-18T07:08:25 IST" duration-ms="1387" status="PASS">
+        <test-method signature="getNoteById_valid()[pri:1, instance:com.test.GetNoteById@cd1d761]" started-at="2026-06-22T22:32:07 IST" name="getNoteById_valid" finished-at="2026-06-22T22:32:09 IST" duration-ms="1884" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getNoteById -->
+        </test-method> <!-- getNoteById_valid -->
+        <test-method signature="getNoteById_invalid()[pri:2, instance:com.test.GetNoteById@cd1d761]" started-at="2026-06-22T22:32:09 IST" name="getNoteById_invalid" finished-at="2026-06-22T22:32:11 IST" duration-ms="1485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNoteById_invalid -->
       </class> <!-- com.test.GetNoteById -->
       <class name="com.test.UpdateNote">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.UpdateNote@7d64e326]" started-at="2026-06-18T07:08:25 IST" name="setup" finished-at="2026-06-18T07:08:28 IST" duration-ms="3497" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.UpdateNote@68be8808]" started-at="2026-06-22T22:32:11 IST" name="setup" finished-at="2026-06-22T22:32:16 IST" duration-ms="5119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNote()[pri:0, instance:com.test.UpdateNote@7d64e326]" started-at="2026-06-18T07:08:28 IST" name="createNote" finished-at="2026-06-18T07:08:30 IST" duration-ms="1487" status="PASS">
+        <test-method signature="createNote()[pri:0, instance:com.test.UpdateNote@68be8808]" started-at="2026-06-22T22:32:16 IST" name="createNote" finished-at="2026-06-22T22:32:18 IST" duration-ms="2206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNote -->
-        <test-method signature="updateNote()[pri:0, instance:com.test.UpdateNote@7d64e326]" started-at="2026-06-18T07:08:30 IST" name="updateNote" finished-at="2026-06-18T07:08:31 IST" duration-ms="1417" status="PASS">
+        <test-method signature="updateNote()[pri:0, instance:com.test.UpdateNote@68be8808]" started-at="2026-06-22T22:32:18 IST" name="updateNote" finished-at="2026-06-22T22:32:21 IST" duration-ms="3216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateNote -->
       </class> <!-- com.test.UpdateNote -->
       <class name="com.test.CreateNote">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.CreateNote@1fdf1c5]" started-at="2026-06-18T07:08:08 IST" name="setup" finished-at="2026-06-18T07:08:12 IST" duration-ms="3384" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.CreateNote@7d64e326]" started-at="2026-06-22T22:31:48 IST" name="setup" finished-at="2026-06-22T22:31:52 IST" duration-ms="4063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNote()[pri:0, instance:com.test.CreateNote@1fdf1c5]" started-at="2026-06-18T07:08:12 IST" name="createNote" finished-at="2026-06-18T07:08:13 IST" duration-ms="1422" status="PASS">
+        <test-method signature="createNote()[pri:0, instance:com.test.CreateNote@7d64e326]" started-at="2026-06-22T22:31:52 IST" name="createNote" finished-at="2026-06-22T22:31:54 IST" duration-ms="1904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNote -->
       </class> <!-- com.test.CreateNote -->
       <class name="com.test.GetCourse">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.GetCourse@614df0a4]" started-at="2026-06-18T07:08:03 IST" name="setup" finished-at="2026-06-18T07:08:07 IST" duration-ms="3361" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.GetCourse@73a2e526]" started-at="2026-06-22T22:31:40 IST" name="setup" finished-at="2026-06-22T22:31:45 IST" duration-ms="4489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getAllCourseStructures()[pri:0, instance:com.test.GetCourse@614df0a4]" started-at="2026-06-18T07:08:07 IST" name="getAllCourseStructures" finished-at="2026-06-18T07:08:08 IST" duration-ms="1625" status="PASS">
+        <test-method signature="getAllCourseStructures()[pri:0, instance:com.test.GetCourse@73a2e526]" started-at="2026-06-22T22:31:45 IST" name="getAllCourseStructures" finished-at="2026-06-22T22:31:48 IST" duration-ms="3013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllCourseStructures -->
       </class> <!-- com.test.GetCourse -->
       <class name="com.test.DeleteNote">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.DeleteNote@cd1d761]" started-at="2026-06-18T07:08:38 IST" name="setup" finished-at="2026-06-18T07:08:41 IST" duration-ms="3258" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.DeleteNote@6b8d96d9]" started-at="2026-06-22T22:32:30 IST" name="setup" finished-at="2026-06-22T22:32:35 IST" duration-ms="5022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNote()[pri:0, instance:com.test.DeleteNote@cd1d761]" started-at="2026-06-18T07:08:41 IST" name="createNote" finished-at="2026-06-18T07:08:42 IST" duration-ms="1343" status="PASS">
+        <test-method signature="createNote()[pri:0, instance:com.test.DeleteNote@6b8d96d9]" started-at="2026-06-22T22:32:35 IST" name="createNote" finished-at="2026-06-22T22:32:37 IST" duration-ms="1798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNote -->
-        <test-method signature="deleteNote()[pri:0, instance:com.test.DeleteNote@cd1d761]" started-at="2026-06-18T07:08:42 IST" name="deleteNote" finished-at="2026-06-18T07:08:44 IST" duration-ms="1647" status="PASS">
+        <test-method signature="deleteNote()[pri:0, instance:com.test.DeleteNote@6b8d96d9]" started-at="2026-06-22T22:32:37 IST" name="deleteNote" finished-at="2026-06-22T22:32:39 IST" duration-ms="1642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteNote -->
       </class> <!-- com.test.DeleteNote -->
-      <class name="com.test.LoginApi">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.LoginApi@37c7595]" started-at="2026-06-18T07:07:51 IST" name="setup" finished-at="2026-06-18T07:07:54 IST" duration-ms="3573" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.test.LoginApi@37c7595]" started-at="2026-06-18T07:07:54 IST" name="loginTest" finished-at="2026-06-18T07:07:54 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- com.test.LoginApi -->
       <class name="com.test.GetAllNotes">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.GetAllNotes@2d96543c]" started-at="2026-06-18T07:08:13 IST" name="setup" finished-at="2026-06-18T07:08:17 IST" duration-ms="3955" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.GetAllNotes@13f95696]" started-at="2026-06-22T22:31:54 IST" name="setup" finished-at="2026-06-22T22:31:58 IST" duration-ms="4622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getAllNotes()[pri:0, instance:com.test.GetAllNotes@2d96543c]" started-at="2026-06-18T07:08:17 IST" name="getAllNotes" finished-at="2026-06-18T07:08:19 IST" duration-ms="1481" status="PASS">
+        <test-method signature="getAllNotes_valid()[pri:1, instance:com.test.GetAllNotes@13f95696]" started-at="2026-06-22T22:31:58 IST" name="getAllNotes_valid" finished-at="2026-06-22T22:32:01 IST" duration-ms="2403" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAllNotes -->
+        </test-method> <!-- getAllNotes_valid -->
+        <test-method signature="getAllNotes_invalid()[pri:2, instance:com.test.GetAllNotes@13f95696]" started-at="2026-06-22T22:32:01 IST" name="getAllNotes_invalid" finished-at="2026-06-22T22:32:02 IST" duration-ms="962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllNotes_invalid -->
       </class> <!-- com.test.GetAllNotes -->
       <class name="com.test.TogglePin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.TogglePin@13f95696]" started-at="2026-06-18T07:08:31 IST" name="setup" finished-at="2026-06-18T07:08:35 IST" duration-ms="3282" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.TogglePin@32193bea]" started-at="2026-06-22T22:32:21 IST" name="setup" finished-at="2026-06-22T22:32:26 IST" duration-ms="4166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createNote()[pri:0, instance:com.test.TogglePin@13f95696]" started-at="2026-06-18T07:08:35 IST" name="createNote" finished-at="2026-06-18T07:08:36 IST" duration-ms="1374" status="PASS">
+        <test-method signature="createNote()[pri:0, instance:com.test.TogglePin@32193bea]" started-at="2026-06-22T22:32:26 IST" name="createNote" finished-at="2026-06-22T22:32:27 IST" duration-ms="1894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNote -->
-        <test-method signature="togglePinNote()[pri:0, instance:com.test.TogglePin@13f95696]" started-at="2026-06-18T07:08:36 IST" name="togglePinNote" finished-at="2026-06-18T07:08:38 IST" duration-ms="1751" status="PASS">
+        <test-method signature="togglePinNote()[pri:0, instance:com.test.TogglePin@32193bea]" started-at="2026-06-22T22:32:27 IST" name="togglePinNote" finished-at="2026-06-22T22:32:30 IST" duration-ms="2880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- togglePinNote -->
       </class> <!-- com.test.TogglePin -->
       <class name="com.test.GetRole">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.GetRole@1199fe66]" started-at="2026-06-18T07:07:58 IST" name="setup" finished-at="2026-06-18T07:08:02 IST" duration-ms="3451" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.GetRole@2d96543c]" started-at="2026-06-22T22:31:32 IST" name="setup" finished-at="2026-06-22T22:31:36 IST" duration-ms="4094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getAllRoles()[pri:0, instance:com.test.GetRole@1199fe66]" started-at="2026-06-18T07:08:02 IST" name="getAllRoles" finished-at="2026-06-18T07:08:03 IST" duration-ms="1342" status="PASS">
+        <test-method signature="getAllRoles_ValidToken()[pri:1, instance:com.test.GetRole@2d96543c]" started-at="2026-06-22T22:31:36 IST" name="getAllRoles_ValidToken" finished-at="2026-06-22T22:31:38 IST" duration-ms="1968" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAllRoles -->
+        </test-method> <!-- getAllRoles_ValidToken -->
+        <test-method signature="getAllRoles_NoToken()[pri:2, instance:com.test.GetRole@2d96543c]" started-at="2026-06-22T22:31:38 IST" name="getAllRoles_NoToken" finished-at="2026-06-22T22:31:39 IST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllRoles_NoToken -->
+        <test-method signature="getAllRoles_InvalidToken()[pri:3, instance:com.test.GetRole@2d96543c]" started-at="2026-06-22T22:31:39 IST" name="getAllRoles_InvalidToken" finished-at="2026-06-22T22:31:40 IST" duration-ms="1263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllRoles_InvalidToken -->
       </class> <!-- com.test.GetRole -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      <class name="com.test.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.LoginTest@3e30646a]" started-at="2026-06-22T22:31:07 IST" name="setup" finished-at="2026-06-22T22:31:13 IST" duration-ms="6223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginTest()[pri:1, instance:com.test.LoginTest@3e30646a]" started-at="2026-06-22T22:31:13 IST" name="validLoginTest" finished-at="2026-06-22T22:31:17 IST" duration-ms="4026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method signature="invalidEmailTest()[pri:2, instance:com.test.LoginTest@3e30646a]" started-at="2026-06-22T22:31:17 IST" name="invalidEmailTest" finished-at="2026-06-22T22:31:18 IST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailTest -->
+        <test-method signature="invalidPasswordTest()[pri:3, instance:com.test.LoginTest@3e30646a]" started-at="2026-06-22T22:31:18 IST" name="invalidPasswordTest" finished-at="2026-06-22T22:31:22 IST" duration-ms="4476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordTest -->
+        <test-method signature="missingFieldsTest()[pri:4, instance:com.test.LoginTest@3e30646a]" started-at="2026-06-22T22:31:22 IST" name="missingFieldsTest" finished-at="2026-06-22T22:31:23 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingFieldsTest -->
+      </class> <!-- com.test.LoginTest -->
+    </test> <!-- LMS API Tests -->
+  </suite> <!-- LMS API Automation Suite -->
 </testng-results>

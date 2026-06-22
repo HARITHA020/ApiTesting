@@ -13,12 +13,11 @@
     <test name="LMS API Tests" thread-count="5">
 
         <classes>
+            <class name="com.test.LoginTest"/>
             <class name="com.test.CheckApi"/>
-            <class name="com.test.LoginApi"/>
             <class name="com.test.GetInstitute"/>
             <class name="com.test.GetRole"/>
             <class name="com.test.GetCourse"/>
-
             <class name="com.test.CreateNote"/>
             <class name="com.test.GetAllNotes"/>
             <class name="com.test.GetNoteById"/>

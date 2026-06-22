@@ -1,0 +1,1 @@
+{"uuid":"aa3b9c5d-e782-4dc9-a612-a8c92d20c5f9","name":"com.test.GetCourse","children":["40696d21-33fc-4256-9884-e3843da47605"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1782147700591,"stop":1782147705079}],"afters":[],"start":1782147667291,"stop":1782147759637}

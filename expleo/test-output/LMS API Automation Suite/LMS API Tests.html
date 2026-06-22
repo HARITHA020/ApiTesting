@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>TestNG:  LMS API Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>LMS API Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 22 22:31:07 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>92 seconds (92045 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.LoginTest.invalidEmailTest()'><b>invalidEmailTest</b><br>Test class: com.test.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.LoginTest@3e30646a</td></tr>
+<tr>
+<td title='com.test.CreateNote.createNote()'><b>createNote</b><br>Test class: com.test.CreateNote</td>
+<td></td>
+<td>1</td>
+<td>com.test.CreateNote@7d64e326</td></tr>
+<tr>
+<td title='com.test.GetRole.getAllRoles_NoToken()'><b>getAllRoles_NoToken</b><br>Test class: com.test.GetRole</td>
+<td></td>
+<td>0</td>
+<td>com.test.GetRole@2d96543c</td></tr>
+<tr>
+<td title='com.test.LoginTest.invalidPasswordTest()'><b>invalidPasswordTest</b><br>Test class: com.test.LoginTest</td>
+<td></td>
+<td>4</td>
+<td>com.test.LoginTest@3e30646a</td></tr>
+<tr>
+<td title='com.test.GetAllNotes.getAllNotes_invalid()'><b>getAllNotes_invalid</b><br>Test class: com.test.GetAllNotes</td>
+<td></td>
+<td>0</td>
+<td>com.test.GetAllNotes@13f95696</td></tr>
+<tr>
+<td title='com.test.GetNoteById.getNoteById_valid()'><b>getNoteById_valid</b><br>Test class: com.test.GetNoteById</td>
+<td></td>
+<td>1</td>
+<td>com.test.GetNoteById@cd1d761</td></tr>
+<tr>
+<td title='com.test.DeleteNote.createNote()'><b>createNote</b><br>Test class: com.test.DeleteNote</td>
+<td></td>
+<td>1</td>
+<td>com.test.DeleteNote@6b8d96d9</td></tr>
+<tr>
+<td title='com.test.GetInstitute.getAllInstitutions()'><b>getAllInstitutions</b><br>Test class: com.test.GetInstitute</td>
+<td></td>
+<td>1</td>
+<td>com.test.GetInstitute@1fdf1c5</td></tr>
+<tr>
+<td title='com.test.LoginTest.validLoginTest()'><b>validLoginTest</b><br>Test class: com.test.LoginTest</td>
+<td></td>
+<td>4</td>
+<td>com.test.LoginTest@3e30646a</td></tr>
+<tr>
+<td title='com.test.GetNoteById.getNoteById_invalid()'><b>getNoteById_invalid</b><br>Test class: com.test.GetNoteById</td>
+<td></td>
+<td>1</td>
+<td>com.test.GetNoteById@cd1d761</td></tr>
+<tr>
+<td title='com.test.UpdateNote.updateNote()'><b>updateNote</b><br>Test class: com.test.UpdateNote</td>
+<td></td>
+<td>3</td>
+<td>com.test.UpdateNote@68be8808</td></tr>
+<tr>
+<td title='com.test.TogglePin.createNote()'><b>createNote</b><br>Test class: com.test.TogglePin</td>
+<td></td>
+<td>1</td>
+<td>com.test.TogglePin@32193bea</td></tr>
+<tr>
+<td title='com.test.GetAllNotes.getAllNotes_valid()'><b>getAllNotes_valid</b><br>Test class: com.test.GetAllNotes</td>
+<td></td>
+<td>2</td>
+<td>com.test.GetAllNotes@13f95696</td></tr>
+<tr>
+<td title='com.test.GetRole.getAllRoles_InvalidToken()'><b>getAllRoles_InvalidToken</b><br>Test class: com.test.GetRole</td>
+<td></td>
+<td>1</td>
+<td>com.test.GetRole@2d96543c</td></tr>
+<tr>
+<td title='com.test.GetCourse.getAllCourseStructures()'><b>getAllCourseStructures</b><br>Test class: com.test.GetCourse</td>
+<td></td>
+<td>3</td>
+<td>com.test.GetCourse@73a2e526</td></tr>
+<tr>
+<td title='com.test.DeleteNote.deleteNote()'><b>deleteNote</b><br>Test class: com.test.DeleteNote</td>
+<td></td>
+<td>1</td>
+<td>com.test.DeleteNote@6b8d96d9</td></tr>
+<tr>
+<td title='com.test.GetRole.getAllRoles_ValidToken()'><b>getAllRoles_ValidToken</b><br>Test class: com.test.GetRole</td>
+<td></td>
+<td>1</td>
+<td>com.test.GetRole@2d96543c</td></tr>
+<tr>
+<td title='com.test.LoginTest.missingFieldsTest()'><b>missingFieldsTest</b><br>Test class: com.test.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.LoginTest@3e30646a</td></tr>
+<tr>
+<td title='com.test.TogglePin.togglePinNote()'><b>togglePinNote</b><br>Test class: com.test.TogglePin</td>
+<td></td>
+<td>2</td>
+<td>com.test.TogglePin@32193bea</td></tr>
+<tr>
+<td title='com.test.CheckApi.healthCheck()'><b>healthCheck</b><br>Test class: com.test.CheckApi</td>
+<td></td>
+<td>0</td>
+<td>com.test.CheckApi@614df0a4</td></tr>
+<tr>
+<td title='com.test.UpdateNote.createNote()'><b>createNote</b><br>Test class: com.test.UpdateNote</td>
+<td></td>
+<td>2</td>
+<td>com.test.UpdateNote@68be8808</td></tr>
+<tr>
+<td title='com.test.GetNoteById.createNote()'><b>createNote</b><br>Test class: com.test.GetNoteById</td>
+<td></td>
+<td>1</td>
+<td>com.test.GetNoteById@cd1d761</td></tr>
+</table><p>
+</body>
+</html>

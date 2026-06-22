@@ -1,0 +1,1 @@
+{"uuid":"a941540b-880d-4843-9be5-13ecb3832554","name":"com.test.CheckApi","children":["679bffd1-00b4-478d-a266-84d3c737a98e"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1782147683476,"stop":1782147687259}],"afters":[],"start":1782147667290,"stop":1782147759628}

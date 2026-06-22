@@ -16,6 +16,7 @@ public class ExtentManager {
 
             spark.config().setReportName("LMS API Automation Report");
             spark.config().setDocumentTitle("API Test Results");
+            
 
             extent = new ExtentReports();
             extent.attachReporter(spark);

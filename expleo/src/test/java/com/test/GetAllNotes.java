@@ -6,9 +6,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class GetAllNotes extends BaseTest {
-
-    @Test
-    public void getAllNotes() {
+    @Test(priority = 1)
+    public void getAllNotes_valid() {
 
         Response response = RestAssured
                 .given()
@@ -16,19 +15,33 @@ public class GetAllNotes extends BaseTest {
                 .queryParam("limit", 2)
                 .queryParam("sortOrder", "desc")
                 .when()
-                .get("/getAll/notes")
-                .then()
-                .statusCode(200)
-                .extract()
-                .response();
+                .get("/getAll/notes");
+        Assert.assertEquals(response.statusCode(), 200);
+        Assert.assertTrue(response.jsonPath().getBoolean("success"));
+        int dataSize = response.jsonPath().getList("data").size();
+        Assert.assertTrue(dataSize <= 2);
+        if (dataSize > 0) {
+            String title = response.jsonPath().getString("data[0].title");
+            System.out.println("First Note Title: " + title);
+            Assert.assertNotNull(title);
+        }
 
+        System.out.println("VALID RESPONSE:");
         System.out.println(response.asPrettyString());
-        boolean success = response.jsonPath().getBoolean("success");
-        Assert.assertTrue(success);
-        String title = response.jsonPath().getString("data[0].title");
-        System.out.println("First Note Title: " + title);
-        int totalNotes = response.jsonPath().getInt("pagination.totalNotes");
-        System.out.println("Total Notes: " + totalNotes);
-        Assert.assertTrue(totalNotes >= 0);
+    }
+
+    @Test(priority = 2)
+    public void getAllNotes_invalid() {
+
+        Response response = RestAssured
+                .given()
+                .queryParam("limit", 2)
+                .queryParam("sortOrder", "desc")
+                .when()
+                .get("/getAll/notes");
+        Assert.assertEquals(response.statusCode(), 401);
+
+        System.out.println("INVALID RESPONSE:");
+        System.out.println(response.asPrettyString());
     }
 }
